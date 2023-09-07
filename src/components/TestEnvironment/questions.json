@@ -1,0 +1,56 @@
+{
+    "questions": [
+        {
+            "id": 1,
+            "text": "What is the capital of France?",
+            "options": [
+                {"value": "a", "text": "Paris", "correct": true},
+                {"value": "b", "text": "London", "correct": false},
+                {"value": "c", "text": "Berlin", "correct": false},
+                {"value": "d", "text": "Madrid", "correct": false}
+            ]
+        },
+        {
+            "id": 2,
+            "text": "Which planet is known as the Red Planet?",
+            "options": [
+                {"value": "a", "text": "Earth", "correct": false},
+                {"value": "b", "text": "Mars", "correct": true},
+                {"value": "c", "text": "Jupiter", "correct": false},
+                {"value": "d", "text": "Venus", "correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Capital of india?",
+            "options": [
+                {"value": "a", "text": "Delhi", "correct": true},
+                {"value": "b", "text": "Goa", "correct": false},
+                {"value": "c", "text": "Hyderabad", "correct": false},
+                {"value": "d", "text": "Goa", "correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "text": "Dotar char kon h?",
+            "options": [
+                {"value": "a", "text": "Totla seith", "correct": false},
+                {"value": "b", "text": "Raju", "correct": true},
+                {"value": "c", "text": "Shyam", "correct": false},
+                {"value": "d", "text": "Radha refund vali", "correct": false}
+            ]
+        },
+        {
+            "id": 3,
+            "text": "A man walking at the rate of 5 km/hr. crosses a bridge in 15 minutes. The length of the bridge (in metres) is ?",
+            "options": [
+                {"value": "a", "text": "600", "correct": false},
+                {"value": "b", "text": "750", "correct": false},
+                {"value": "c", "text": "1000", "correct": false},
+                {"value": "d", "text": "1250", "correct": true}
+            ]
+        }
+    ]
+}
+
+

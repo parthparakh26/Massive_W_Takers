@@ -1,0 +1,83 @@
+/* Styles for the quiz container */
+.quiz-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styles for the question card */
+  .question-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the question text */
+  .question {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the options container */
+  .options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  /* Styles for each option label */
+  .option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  /* Styles for the radio buttons */
+  .option input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  /* Styles for the Clear Options button */
+  .deselect-button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the timer section */
+  #timer {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the Submit Test button */
+  .submit-button1 {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the summary card */
+  #summary-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  /* Styles for the pie chart card */
+  #pie-chart-card {
+    margin-top: 20px;
+  }
+  
