@@ -6,6 +6,7 @@ import MCQGeneration from './pages/MCQGeneration/MCQGeneration';
 import TestEnvironment from './components/TestEnvironment/TestEnvironment';
 
 function App() {
+
   return (
     <BrowserRouter>
       <Routes>

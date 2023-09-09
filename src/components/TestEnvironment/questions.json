@@ -2,55 +2,100 @@
     "questions": [
         {
             "id": 1,
-            "text": "What is the capital of France?",
+            "text": "The first print of Sorrieu's series shows who marching in a train?",
             "options": [
-                {"value": "a", "text": "Paris", "correct": true},
-                {"value": "b", "text": "London", "correct": false},
-                {"value": "c", "text": "Berlin", "correct": false},
-                {"value": "d", "text": "Madrid", "correct": false}
+                {"value": "a", "text": "Other Peoples", "correct": false},
+                {"value": "b", "text": "Peoples", "correct": true},
+                {"value": "c", "text": "Individual People", "correct": false},
+                {"value": "d", "text": "Everyones", "correct": false}
             ]
         },
         {
             "id": 2,
-            "text": "Which planet is known as the Red Planet?",
+            "text": "Nationalism emerged as a force which brought about sweeping changes in what?",
             "options": [
-                {"value": "a", "text": "Earth", "correct": false},
-                {"value": "b", "text": "Mars", "correct": true},
-                {"value": "c", "text": "Jupiter", "correct": false},
-                {"value": "d", "text": "Venus", "correct": false}
+                {"value": "a", "text": "Continental Europe", "correct": false},
+                {"value": "b", "text": "Mainland Europe", "correct": false},
+                {"value": "c", "text": "Europe", "correct": true},
+                {"value": "d", "text": "Western Europe", "correct": false}
             ]
         },
         {
             "id": 3,
-            "text": "Capital of india?",
+            "text": "Along with Holland and Italy, what country did the French armies invade in the 1790s?",
             "options": [
-                {"value": "a", "text": "Delhi", "correct": true},
-                {"value": "b", "text": "Goa", "correct": false},
-                {"value": "c", "text": "Hyderabad", "correct": false},
-                {"value": "d", "text": "Goa", "correct": false}
+                {"value": "a", "text": "Liechtenstein", "correct": false},
+                {"value": "b", "text": "Belgium", "correct": false},
+                {"value": "c", "text": "Malta", "correct": false},
+                {"value": "d", "text": "Switzerland", "correct": true}
             ]
         },
         {
-            "id": 3,
-            "text": "Dotar char kon h?",
+            "id": 4,
+            "text": "What country did Napoleon destroy democracy in?",
             "options": [
-                {"value": "a", "text": "Totla seith", "correct": false},
-                {"value": "b", "text": "Raju", "correct": true},
-                {"value": "c", "text": "Shyam", "correct": false},
-                {"value": "d", "text": "Radha refund vali", "correct": false}
+                {"value": "a", "text": "France", "correct": true},
+                {"value": "b", "text": "Paris", "correct": false},
+                {"value": "c", "text": "Netherlands", "correct": false},
+                {"value": "d", "text": "Britain", "correct": false}
             ]
         },
         {
-            "id": 3,
-            "text": "A man walking at the rate of 5 km/hr. crosses a bridge in 15 minutes. The length of the bridge (in metres) is ?",
+            "id": 5,
+            "text": "Who created a series of four prints in 1848?",
             "options": [
-                {"value": "a", "text": "600", "correct": false},
-                {"value": "b", "text": "750", "correct": false},
-                {"value": "c", "text": "1000", "correct": false},
-                {"value": "d", "text": "1250", "correct": true}
+                {"value": "a", "text": "Frédéric Sorrieu", "correct": true}
+            ]
+        },
+        {
+            "id": 6,
+            "text": "What did the French armies move into in the 1790s?",
+            "options": [
+                {"value": "a", "text": "Sovereign Territory", "correct": false},
+                {"value": "b", "text": "Territorial Boundaries", "correct": false},
+                {"value": "c", "text": "Territory", "correct": true},
+                {"value": "d", "text": "Own Territories", "correct": false}
+            ]
+        },
+        {
+            "id": 7,
+            "text": "What statue did the people of Europe and America offer homage to?",
+            "options": [
+                {"value": "a", "text": "Individual Liberty", "correct": false},
+                {"value": "b", "text": "Personal Liberty", "correct": false},
+                {"value": "c", "text": "Freedom", "correct": false},
+                {"value": "d", "text": "Liberty", "correct": true}
+            ]
+        },
+        {
+            "id": 8,
+            "text": "What was Sorrieu's dream of?",
+            "options": [
+                {"value": "a", "text": "World", "correct": true},
+                {"value": "b", "text": "Entire World", "correct": false},
+                {"value": "c", "text": "Whole World", "correct": false},
+                {"value": "d", "text": "Modern World", "correct": false}
+            ]
+        },
+        {
+            "id": 9,
+            "text": "Who destroyed democracy in France?",
+            "options": [
+                {"value": "a", "text": "Julius Caesar", "correct": false},
+                {"value": "b", "text": "Napoleon", "correct": true},
+                {"value": "c", "text": "Augustus", "correct": false},
+                {"value": "d", "text": "Churchill", "correct": false}
+            ]
+        },
+        {
+            "id": 10,
+            "text": "Who moved into Holland, Switzerland and much of Italy in the 1790s?",
+            "options": [
+                {"value": "a", "text": "Enemy Armies", "correct": false},
+                {"value": "b", "text": "Large Armies", "correct": false},
+                {"value": "c", "text": "Armies", "correct": true},
+                {"value": "d", "text": "Full Armies", "correct": false}
             ]
         }
     ]
 }
-
-

@@ -2,7 +2,7 @@ import React, { useState,useEffect } from 'react';
 import './MCQGeneration.css';
 import data from '../../dummy.json';
 import MCQCard from '../../components/MCQCard/MCQCard';
-import { Link } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 import axios from 'axios'; 
 
 interface MCQItem {
@@ -18,6 +18,8 @@ const MCQGeneration: React.FC = () => {
   const [formSubmitted, setFormSubmitted] = useState(false);
   const [isEditing, setIsEditing] = useState(false);
 
+  const navigate = useNavigate();
+
   const handleTextChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     setText(event.target.value);
   };
@@ -26,9 +28,22 @@ const MCQGeneration: React.FC = () => {
     setDifficulty(event.target.value);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
+    // try {
+    //   const response = await axios.get('YOUR_API_ENDPOINT');
+    //   setMCQData(response.data);
+    //   setFormSubmitted(true);
+    // } catch (error) {
+    //   console.error('Error fetching data:', error);
+    // }
+
     setMCQData(data);
     setFormSubmitted(true);
+  };
+
+  const sendMCQDataToTest = () => {    
+    navigate('/test', { state:  mcqData  });
+    // console.log(mcqData);
   };
 
   const countWords = (text: string) => {
@@ -52,19 +67,6 @@ const MCQGeneration: React.FC = () => {
     setMCQData(updatedData);
   };
 
-  const fetchData = async () => {
-    try {
-      const response = await axios.post('YOUR_API_ENDPOINT');
-      setMCQData(response.data);
-      setFormSubmitted(true);
-    } catch (error) {
-      console.error('Error fetching data:', error);
-    }
-  };
-
-  useEffect(() => {
-    fetchData();
-  }, []);
 
   return (
     <div className='MCQGeneration-container'>
@@ -105,7 +107,7 @@ const MCQGeneration: React.FC = () => {
         <div className="right-section">
           {formSubmitted && (
             <div className='mcq-button-container'>
-               <Link to='/test'><button className='take-test-mcq'>Take Test</button></Link>
+               <Link to='/test' state={{ mcqData: mcqData }}><button className='take-test-mcq' onClick={sendMCQDataToTest}>Take Test</button></Link>
               <div>
               {isEditing ? (
                 <button className='save-mcq' onClick={handleEditClick}>
